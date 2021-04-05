@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <section class="section">
+      {% if site.snow == 1 %}{% include snow.html %}{% endif %}
+      <div class="container content" style="margin-top: 2rem;">
+        {{ content }}
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+    <!-- Load Zooming library -->
+    <script src="https://unpkg.com/zooming/build/zooming.min.js"></script>
+
+    <script>
+      // Listen to images after DOM content is fully loaded
+      document.addEventListener('DOMContentLoaded', function () {
+        const zooming = new Zooming({
+          bgColor: '#282a36',
+	  enableGrab: false,
+	  onOpen: function (target) {
+		  target.style.transition = "all .5s";
+		  target.style.borderRadius = "0rem";
+          },
+	  onClose: function (target) {
+		  target.style.transition = "all .5s";
+		  target.style.borderRadius = "1rem";
+	  }
+        })
+        zooming.listen('img')
+      })
+    </script>
+  </body>
+</html>

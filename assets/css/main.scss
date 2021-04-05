@@ -1,0 +1,68 @@
+---
+---
+
+@charset "utf-8";
+$font-family-base: Helvetica, Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Fira+Code|Kaushan+Script");
+$spacing-unit: 30px;
+@import "presets";
+@import "bulma";
+@import "syntax-highlighting";
+@import "line-awesome/scss/line-awesome";
+@import "overrides";
+
+.hero {
+  font-family: "Kaushan Script", sans-serif;
+  transform: rotate(-5deg);
+  font-size: 1.3rem;
+  margin: 0.2rem;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  cursor: pointer !important;
+}
+
+@keyframes love {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+
+.love {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+  color: #ff79c6;
+  transform: scale(0.9);
+  -webkit-animation: love 2s linear infinite alternate-reverse;
+  animation: love 2s linear infinite alternate-reverse;
+}
+
+.license-notice {
+  color: #ffb86c;
+}
+
+.navbar-start a:hover {
+  background-color: #44475a;
+}

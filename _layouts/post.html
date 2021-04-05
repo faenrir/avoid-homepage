@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body>
+		{% include header.html %}
+
+		<section class="section">
+			<div style="margin-top: 2rem;"
+				class="container content"
+				>
+				<h1 class="title is-size-2">
+					{{ page.title }}
+				</h1>
+				<p style="color: #ffb86c;">
+					Posted on {{ page.date | date: "%-d %B
+					%Y" }} by <a href="mailto:{{ page.author-mail }}" style="color: #50fa7b;">{{ page.author }}</a>
+
+				</p>
+				<br>
+				{{ content }}
+				<br>
+				<p>
+					Stay in touch with news through our <a href="{{ site.url }}/feed.xml">rss feed</a>
+				</p>
+			</div>
+		</section>
+
+		{% include footer.html %}
+
+		<!-- Load Zooming library -->
+		<script src="https://unpkg.com/zooming/build/zooming.min.js"></script>
+
+		<script>
+			// Listen to images after DOM content is fully loaded
+			document.addEventListener(
+				"DOMContentLoaded",
+				function() {
+					const zooming = new Zooming({
+						bgColor: "#282a36",
+						enableGrab: false,
+						onOpen: function(target) {
+							target.style.transition =
+								"all .5s";
+							target.style.borderRadius =
+								"0rem";
+						},
+						onClose: function(target) {
+							target.style.transition =
+								"all .5s";
+							target.style.borderRadius =
+								"1rem";
+						}
+					});
+					zooming.listen("img");
+				}
+			);
+		</script>
+	</body>
+</html>
