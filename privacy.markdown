@@ -73,7 +73,7 @@ Germany
 
 Email: fabian.baldeau@protonmail.com
 
-Website: aVoid Linux.sh
+Website: avoid.sh
 
 ## 3. Collection of general data and information
 
