@@ -9,7 +9,7 @@ layout: home
 <h2>In construction 👷🏗️</h2>
 </div>
 
-![preview_image](/assets/img/screen1.png)
+![preview_image](/assets/img/screen2.png)
 
 ## What is avoid linux?
 
