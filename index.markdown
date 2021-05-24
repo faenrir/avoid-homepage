@@ -9,11 +9,11 @@ layout: home
 <h2>In construction 👷🏗️</h2>
 </div>
 
-![preview_image](/assets/img/screen2.png)
+![preview_image](/assets/img/screen0.png)
 
 ## What is avoid linux?
 
-avoid linux is `a Void Linux distribution`. This default [Void Linux](https://voidlinux.org) install provides an incredibly minimalistic pre-configured desktop. All the configuration you would do anyway has already been done so you can jump straight into the Void!
+Avoid linux is `a Void Linux distribution`. It's purpose is to teach linux and it also can be used as cool pre-configured distro. Inspired by [Archcraft](https://archcraft-os.github.io/).
 
 <!-- ## Modular and modern
 

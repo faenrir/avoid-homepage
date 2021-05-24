@@ -27,7 +27,6 @@
 
 
   <body>
-
     <nav
   class="navbar is-fixed-top is-dark"
   role="navigation"
@@ -92,7 +91,7 @@
 
     <section class="section">
       
-      <div class="container content" style="margin-top: 2rem;">
+      <div class="container content" style="margin-top: 2rem">
         <h1 id="privacy-policy">Privacy Policy</h1>
 
 <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the aVoid Linux Project. The use of the Internet pages of the aVoid Linux Project is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
@@ -381,21 +380,21 @@ If one of the aforementioned conditions is met, and a data subject wishes to req
 
     <script>
       // Listen to images after DOM content is fully loaded
-      document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener("DOMContentLoaded", function () {
         const zooming = new Zooming({
-          bgColor: '#282a36',
-	  enableGrab: false,
-	  onOpen: function (target) {
-		  target.style.transition = "all .5s";
-		  target.style.borderRadius = "0rem";
+          bgColor: "#ffffea",
+          enableGrab: false,
+          onOpen: function (target) {
+            target.style.transition = "all .5s";
+            target.style.borderRadius = "0rem";
           },
-	  onClose: function (target) {
-		  target.style.transition = "all .5s";
-		  target.style.borderRadius = "1rem";
-	  }
-        })
-        zooming.listen('img')
-      })
+          onClose: function (target) {
+            target.style.transition = "all .5s";
+            target.style.borderRadius = "1rem";
+          },
+        });
+        zooming.listen("img");
+      });
     </script>
   </body>
 </html>

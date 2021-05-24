@@ -27,7 +27,6 @@
 
 
   <body>
-
     <nav
   class="navbar is-fixed-top is-dark"
   role="navigation"
@@ -92,7 +91,7 @@
 
     <section class="section">
       
-      <div class="container content" style="margin-top: 2rem;">
+      <div class="container content" style="margin-top: 2rem">
         <div align="center">
 <h2>DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE</h2>
 <h2>Version 2, December 2004</h2>
@@ -203,21 +202,21 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION</strong></p>
 
     <script>
       // Listen to images after DOM content is fully loaded
-      document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener("DOMContentLoaded", function () {
         const zooming = new Zooming({
-          bgColor: '#282a36',
-	  enableGrab: false,
-	  onOpen: function (target) {
-		  target.style.transition = "all .5s";
-		  target.style.borderRadius = "0rem";
+          bgColor: "#ffffea",
+          enableGrab: false,
+          onOpen: function (target) {
+            target.style.transition = "all .5s";
+            target.style.borderRadius = "0rem";
           },
-	  onClose: function (target) {
-		  target.style.transition = "all .5s";
-		  target.style.borderRadius = "1rem";
-	  }
-        })
-        zooming.listen('img')
-      })
+          onClose: function (target) {
+            target.style.transition = "all .5s";
+            target.style.borderRadius = "1rem";
+          },
+        });
+        zooming.listen("img");
+      });
     </script>
   </body>
 </html>

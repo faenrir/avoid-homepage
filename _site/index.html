@@ -27,7 +27,6 @@
 
 
   <body>
-
     <nav
   class="navbar is-fixed-top is-dark"
   role="navigation"
@@ -92,16 +91,16 @@
 
     <section class="section">
       
-      <div class="container content" style="margin-top: 2rem;">
+      <div class="container content" style="margin-top: 2rem">
         <div align="center">
 <h2>In construction 👷🏗️</h2>
 </div>
 
-<p><img src="/assets/img/screen2.png" alt="preview_image" /></p>
+<p><img src="/assets/img/screen0.png" alt="preview_image" /></p>
 
 <h2 id="what-is-avoid-linux">What is avoid linux?</h2>
 
-<p>avoid linux is <code class="language-plaintext highlighter-rouge">a Void Linux distribution</code>. This default <a href="https://voidlinux.org">Void Linux</a> install provides an incredibly minimalistic pre-configured desktop. All the configuration you would do anyway has already been done so you can jump straight into the Void!</p>
+<p>Avoid linux is <code class="language-plaintext highlighter-rouge">a Void Linux distribution</code>. It’s purpose is to teach linux and it also can be used as cool pre-configured distro. Inspired by <a href="https://archcraft-os.github.io/">Archcraft</a>.</p>
 
 <!-- ## Modular and modern
 
@@ -215,21 +214,21 @@ You can also install Faenrir's config with a simple script onto your existing Vo
 
     <script>
       // Listen to images after DOM content is fully loaded
-      document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener("DOMContentLoaded", function () {
         const zooming = new Zooming({
-          bgColor: '#282a36',
-	  enableGrab: false,
-	  onOpen: function (target) {
-		  target.style.transition = "all .5s";
-		  target.style.borderRadius = "0rem";
+          bgColor: "#ffffea",
+          enableGrab: false,
+          onOpen: function (target) {
+            target.style.transition = "all .5s";
+            target.style.borderRadius = "0rem";
           },
-	  onClose: function (target) {
-		  target.style.transition = "all .5s";
-		  target.style.borderRadius = "1rem";
-	  }
-        })
-        zooming.listen('img')
-      })
+          onClose: function (target) {
+            target.style.transition = "all .5s";
+            target.style.borderRadius = "1rem";
+          },
+        });
+        zooming.listen("img");
+      });
     </script>
   </body>
 </html>
