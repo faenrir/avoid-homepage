@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: avoid linux
+title: avoid linux!
 email: avoidlinux@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   avoid linux!
@@ -27,7 +27,7 @@ url: "https://avoid.sh" # the base hostname & protocol for your site, e.g. http:
 downloadUrl: ""
 twitter_username: avoid
 github_username: faenrir
-git: "https://git.avoid.sh"
+git: ""
 docs: "https://docs.avoid.sh"
 matrix_room: ""
 contributors: "https://www.github.com/faenrir"
