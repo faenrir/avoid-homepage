@@ -27,7 +27,7 @@ url: "https://avoid.sh" # the base hostname & protocol for your site, e.g. http:
 downloadUrl: ""
 twitter_username: avoid
 github_username: faenrir
-git: ""
+git: "https://git.avoid.sh"
 docs: "https://docs.avoid.sh"
 matrix_room: ""
 contributors: "https://www.github.com/faenrir"
