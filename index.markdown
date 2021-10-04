@@ -13,7 +13,7 @@ layout: home
 
 ## What is avoid linux?
 
-Avoid Linux (A Void Linux distribution) is desktop-focused operating system based on `Void Linux`. It's purpose is to teach Linux and it also can be used as cool pre-configured distro. Somewhat inspired by [Archcraft](https://archcraft-os.github.io/).
+Avoid Linux (A Void Linux distribution) is a desktop-focused operating system based on `Void Linux`. It's purpose is to teach Linux and it also can be used as cool pre-configured distro. Somewhat inspired by [Archcraft](https://archcraft-os.github.io/).
 
 ## What's up with the name?
 
